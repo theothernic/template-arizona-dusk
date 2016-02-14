@@ -1,0 +1,16 @@
+/**
+Arizona Dusk theme.
+written by Nic Barr for AuctionXM.com.
+**/
+
+html, body {
+    font-family: "Lato", "Helvetica", "Arial", sans-serif;
+}
+
+
+section.search {
+    background: url('../img/bg-search.jpg') no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
