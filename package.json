@@ -1,0 +1,22 @@
+{
+  "name": "arizona-dusk",
+  "version": "1.0.0",
+  "description": "Arizona Dusk template",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@theothernic.github.com:theothernic/template-arizona-dusk.git"
+  },
+  "keywords": [
+    "template",
+    "arizona",
+    "dusk",
+    "nic",
+    "barr"
+  ],
+  "author": "Nic Barr <theothernic@outlook.com>",
+  "license": "ISC"
+}
