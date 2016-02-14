@@ -11,6 +11,11 @@ html, body {
 section.search {
     background: url('../img/bg-search.jpg') no-repeat;
     background-size: cover;
-    overflow: auto;
+}
+
+section h2.tagline {
+    font-family:"Lato", "Helvetica", "Arial", sans-serif;
+    font-weight: 900;
+    color: #fff;
 }
 

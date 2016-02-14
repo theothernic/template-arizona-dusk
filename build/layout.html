@@ -68,26 +68,56 @@
                         <!-- about menu -->
                         <li><a href="#">About Us</a></li>
                     </ul>
+
+
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" class="dropdown-toggle"
+                               data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">Log In <span class="caret"></span></a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <form class="navbar-form" method="post">
+                                        <div><strong>Email: </strong></div>
+                                        <input id="txtUserEmaiL" type="text" placeholder="Email" />
+
+                                        <div><strong>Password: </strong></div>
+                                        <input id="txtUserPass" type="password" placeholder="Password" />
+
+                                        <div><button class="btn btn-default">Log In</button></div>
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li><a href="#">Help</a></li>
+
+
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
             </nav>
         </header>
 
         <!-- content -->
         <div id="content">
-
             <!-- big search -->
             <section class="search container-fluid">
                     <div class="row">
-                        <div class="col-md-12 col-lg-10">
-                            <h2>Search our inventory</h2>
+
+                        <div class="col-md-8 col-lg-8 col-md-push-1 col-lg-push-1">
+                            <h2 class="tagline">Search our inventory</h2>
 
                             <fieldset>
-                                <legend>Select from the options below</legend>
+                                <legend>I would like a:</legend>
 
 
                                 <form method="post" action="#">
 
-                                    <div class="form-group col-md-2">
+                                    <div class="form-group col-md-4">
                                         <div class="form-control">
                                             <label>Year</label>
 
@@ -96,7 +126,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="form-group col-md-2">
+                                    <div class="form-group col-md-4">
                                         <div class="form-control">
                                             <label>Make</label>
 
@@ -106,7 +136,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group col-md-2">
+                                    <div class="form-group col-md-4">
                                         <div class="form-control">
                                             <label>Model</label>
 
@@ -116,15 +146,82 @@
                                         </div>
                                     </div>
 
+
+                                    <div class="form-actions">
+                                        <button class="btn btn-primary">Go &raquo;</button>
+                                    </div>
+
                                 </form>
                             </fieldset>
                         </div>
                     </div>
+
+                    <div class="spacer">&nbsp;</div>
              </section>
 
 
             <!-- about section -->
-            <section class="about">
+            <section class="container main">
+
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <h2>Providing best-in-class service, that's how we roll.</h2>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at odio vestibulum,
+                            pharetra felis at, semper ante. Praesent a tortor maximus, condimentum risus at, porta nisl.
+                            Etiam maximus nibh ipsum, at ultricies lectus aliquet id. Vestibulum ante ipsum primis in
+                            faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque at lorem convallis,
+                            fringilla augue quis, dignissim urna. Curabitur pretium, urna et semper interdum, sapien
+                            tortor hendrerit enim, ac cursus urna dolor non lorem. Donec in volutpat felis, sed pretium
+                            diam. Sed malesuada ante quam, et mattis enim maximus porttitor.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Service 1</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at odio vestibulum,
+                            pharetra felis at, semper ante. Praesent a tortor maximus, condimentum risus at, porta nisl.
+                            Etiam maximus nibh ipsum, at ultricies lectus aliquet id. Vestibulum ante ipsum primis in
+                            faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque at lorem convallis,
+                            fringilla augue quis, dignissim urna. Curabitur pretium, urna et semper interdum, sapien
+                            tortor hendrerit enim, ac cursus urna dolor non lorem. Donec in volutpat felis, sed pretium
+                            diam. Sed malesuada ante quam, et mattis enim maximus porttitor.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3>Service 2</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at odio vestibulum,
+                            pharetra felis at, semper ante. Praesent a tortor maximus, condimentum risus at, porta nisl.
+                            Etiam maximus nibh ipsum, at ultricies lectus aliquet id. Vestibulum ante ipsum primis in
+                            faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque at lorem convallis,
+                            fringilla augue quis, dignissim urna. Curabitur pretium, urna et semper interdum, sapien
+                            tortor hendrerit enim, ac cursus urna dolor non lorem. Donec in volutpat felis, sed pretium
+                            diam. Sed malesuada ante quam, et mattis enim maximus porttitor.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3>Service 3</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at odio vestibulum,
+                            pharetra felis at, semper ante. Praesent a tortor maximus, condimentum risus at, porta nisl.
+                            Etiam maximus nibh ipsum, at ultricies lectus aliquet id. Vestibulum ante ipsum primis in
+                            faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque at lorem convallis,
+                            fringilla augue quis, dignissim urna. Curabitur pretium, urna et semper interdum, sapien
+                            tortor hendrerit enim, ac cursus urna dolor non lorem. Donec in volutpat felis, sed pretium
+                            diam. Sed malesuada ante quam, et mattis enim maximus porttitor.
+                        </p>
+                    </div>
+                </div>
 
             </section>
         </div>
