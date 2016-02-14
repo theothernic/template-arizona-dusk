@@ -1,6 +1,9 @@
 /**
 Arizona Dusk theme.
 written by Nic Barr for AuctionXM.com.
+
+Depends upon fonts from Google Fonts -- make sure that these are included!
+
 **/
 
 html, body {
@@ -14,8 +17,14 @@ section.search {
 }
 
 section h2.tagline {
-    font-family:"Lato", "Helvetica", "Arial", sans-serif;
+    font-family:"Oswald", "Helvetica", "Arial", sans-serif;
     font-weight: 900;
     color: #fff;
 }
 
+
+section.main h1,
+section.main h2,
+section.main h3 {
+    font-family:"Oswald", "Helvetica", "Arial", sans-serif;
+}
