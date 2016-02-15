@@ -26,5 +26,27 @@ section h2.tagline {
 section.main h1,
 section.main h2,
 section.main h3 {
-    font-family:"Oswald", "Helvetica", "Arial", sans-serif;
+    font-family: "Oswald", "Helvetica", "Arial", sans-serif;
+}
+
+section.main h3.section-header {
+    padding: 0;
+    margins: 0;
+    font-family: "Lato", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+}
+
+header.page-header h1.page {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", "Helvetica", "Arial", sans-serif;
+}
+
+
+table.table-quick-glance th {
+    font-family: "Oswald", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+}
+table.table-quick-glance td {
+    text-align: center;
 }
